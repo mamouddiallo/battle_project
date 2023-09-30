@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+}
+
+/* Applique la couleur de fond au formulaire */
+.login-form{
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Ajuster la largeur du formulaire selon vos préférences */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+/* Style pour les étiquettes et les champs de saisie */
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style pour le bouton de soumission */
+button[type="submit"] {
+    background-color: black; /* Couleur du bouton */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour le bouton de soumission au survol */
+button[type="submit"]:hover {
+    background-color:blue; /* Couleur du bouton au survol */
+}

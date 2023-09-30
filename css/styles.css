@@ -114,7 +114,12 @@ a {
 }
 
 }
-
+.infos{
+    width: 100%;
+    height: 500px;
+    background: url("../images/To_Do_List3.webp" ) no-repeat 50%;
+    background-size: cover;
+}
 
 /* Footer */
 * {
@@ -126,7 +131,7 @@ a {
 .footer {
   background-color: black;
   color: #fefefe;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
   left: 0;
